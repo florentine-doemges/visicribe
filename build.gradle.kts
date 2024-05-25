@@ -28,6 +28,10 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
     implementation("io.projectreactor.kotlin:reactor-kotlin-extensions:1.2.2")
 
+    // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-reactor
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.8.1")
+
+
     // https://mvnrepository.com/artifact/org.springframework.security/spring-security-web
     implementation("org.springframework.security:spring-security-web")
     // https://mvnrepository.com/artifact/org.springframework.security/spring-security-config
@@ -40,7 +44,7 @@ dependencies {
     implementation("org.bytedeco:opencv:4.9.0-1.5.10")
 
     // https://mvnrepository.com/artifact/org.bytedeco/javacv
-    implementation("org.bytedeco:javacv:1.5.10")
+    implementation("org.bytedeco:javacv-platform:1.5.10")
 
     // https://mvnrepository.com/artifact/org.bytedeco/javacpp
     implementation("org.bytedeco:javacpp:1.5.10")
